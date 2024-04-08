@@ -46,11 +46,13 @@ The web page works as follows:
 
 7) Example song:
 
-``FA7
+```
+
+FA7
 
 Olha que coisa mais linda, 
 
-``              SOL7(13)
+              SOL7(13)
               
 mais cheia de graça
 
@@ -58,17 +60,19 @@ mais cheia de graça
 
 É ela, menina, 
 
-``              sol7
+              sol7
               
 que vem e que passa
 
-``            DO7(9-)
+            DO7(9-)
             
 Num doce balanço 
 
-``             la7(11)
+             la7(11)
              
 a caminho do mar ...
+
+```
 
 -----------
 
