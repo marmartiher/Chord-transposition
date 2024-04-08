@@ -4,6 +4,8 @@ JavaScript
 
 I have started to study a little bit of accompanying guitar, just as an amateur, not to participate in a musical group, just to be able to accompany with chords some songs that I like.
 
+![image of a Chord-transposition](/trans001.png)
+
 As a beginner, I read the song with the chords placed above the corresponding syllable. I have noticed that when going up or down in pitch, because for my voice the song is at a very high or very low all, as is logical, I have to change all the chords, i.e. transpose or transpose the chords.
 
 Doing this on the fly, while reading the song, is quite complex for a beginner, so I have taken advantage of some JavaScript knowledge to try to make a web page with HTLM, CSS and JavaScript, which, locally, helps me to raise and lower the pitch of all the chords of the song.
