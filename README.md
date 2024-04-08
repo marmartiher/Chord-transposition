@@ -454,3 +454,71 @@ I am sure, that this code can be improved, reusing or reorganizing some function
 
 Any advice or input would be appreciated.
 
+--------------------------
+
+#Spanish version
+
+He comenzado a estudiar un poco de guitarra de acompañamiento, solo como aficionada, no para participar en un grupo musical, solo para poder acompañar con acordes algunas canciones que me gustan.
+
+Como principiante, voy leyendo la canción con los acordes colocados encima de la sílaba que corresponda. Me he dado cuenta de que al subir o bajar de tono, porque para mi voz la canción está en un todo muy alto o muy bajo, como es lógico, tengo que cambiar todos los acordes, es decir, transponer o transportar los acordes. 
+
+Hacer esto sobre la marcha, mientras leer la canción, es bastante complejo para un principiante, por lo que he aprovechado algunos conocimientos de JavaScript para intentar hacer una página web con HTLM, CSS y JavaScript, que, de forma local, me ayude a subir y bajar de tono todos los acordes de la canción.
+
+El mayor problema que he encontrado ha sido que cada acorde transpuesto quede sobre la misma sílaba que estaba el original. Por ejemplo, si sobre la palabra la sílaba “ra” de la palabra “pirata” está el acorde ‘G’ (en notación anglosajona) o ‘SOL’ (en notación latina), al aumentar medio tono, serán ‘G#’ o ‘SOL#, y la ‘G’ o la ‘S’ de ‘sol’ deberá aparecer sobre la ‘r’ de ‘ra’, y así para todos los acordes siguientes de esa línea de la letra de la canción, pero al aumentar un carácter, desplaza los siguientes acordes hacia la derecha, y todos los demás. Esto puede parecer un problema menor, pero si lo intentas hacer por tu cuenta, verás que no es tan simple.
+
+En cuanto a la extensiones o alteraciones de los acordes, como séptimas, novenas, aumentados o disminuidos, etc., no he tenido muchos problemas, pues se trata de cortar y pegar las mismas extensiones a la nota transpuesta.
+
+Aunque sé que no es buena práctica, he puesto en un solo archivo HTLM los estilos CSS y el código de JavaScript, incluido el texto de ayuda, para que cualquier usuario que lo desee, pueda bajar todo en un solo archivo y ejecutarlo en local. El código está hecho de forma que funcione en ámbito local, de tu PC, sin tener que subir nada a un servidor.
+
+También las canciones con los acordes estarán en la misma carpeta que este archivo HTLM, o la que indiquemos haciendo una pequeña modificación en el código.
+
+La página web funciona de la siguiente forma:
+
+1) Selecciona una canción con el botón [Ver Archivo]
+   
+2) El archivo que contiene una canción con sus acordes deberá cumplir estas condiciones:
+   
+→ Ha de ser un archivo de texto plano (un TXT editado con el bloc de notas o una herramienta equivalente)
+
+→ El título de canción irá en el nombre del archivo de la forma: NombreCancion.txt (no puede ir dentro del archivo de texto)
+
+→ La primera línea y todas las impares siguientes serán para poner los acordes, y en las líneas pares irá la letra de la canción.
+
+→ Entre cada acorde tiene que haber, al menos, dos espacios para facilitar la transposición; si no se pueden intercalar esos espacios habrá que separar la letra de la canción, bien separando las palabras o las sílabas (ejemplo: se--pa---rado).
+
+→ Para ver bien la posición de los acordes encima de las sílabas correspondientes de la letra de la canción, se deberá escribir con un tipo de letra monoespacio (cada letra ocupa un espacio, como courier, liberation mono, etc.)
+
+→ Si una línea de letra de canción no tiene acordes, habrá que dejar en blanco (salto de línea) la línea superior que corresponde a los acordes, como ocurre por ejemplo, al poner “Estribillo” para hacer referencia al estribillo de la canción, o simplemente cuando esa línea de texto arrastre el acorde de la anterior y sea necesario ponerla (líneas impares siempre para acordes y pares para letra).
+
+3) Para aumentar medio tono los acordes pulsaremos sobre el botón [Aumentar] y para disminuir medio tono sobre el botón [Disminuir].
+
+4) Podemos editar la canción y guardarla con el nombre que queramos, para ello pulsaremos sobre el botón [Guardar].
+ 
+5) Para limpiar la pantalla y cargar otra canción, pulsaremos el botón [Limpiar].
+
+6) Para cambiar de formato de acorde tradicional a moderno y viceversa están los botones [ T -> M ] y [ M -> T]
+
+7) Ejemplo de canción:
+
+```
+FA7
+Mira qué cosa más linda,
+             SOL7(13)
+más llena de gracia
+
+es esa muchacha,
+                sol7
+que viene y que pasa
+            DO7(9-)
+con su balanceo,
+           la7(11)
+camino del mar.
+```
+
+El código de esta página web es el siguiente: (el código anterior)
+
+Estoy segura, de que este código se puede mejorar, reutilizando o reorganizado algunas funciones en funciones más pequeñas, pero, por ahora, funciona esta versión beta.
+
+Se agradecerá cualquier consejo o aportación.
+
+
