@@ -46,7 +46,7 @@ The web page works as follows:
 
 7) Example song:
 
-FA7
+ FA7
 Olha que coisa mais linda, 
 
               SOL7(13)
